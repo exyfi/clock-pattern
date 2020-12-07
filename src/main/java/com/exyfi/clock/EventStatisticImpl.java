@@ -15,7 +15,6 @@ public class EventStatisticImpl implements EventStatistic {
     private final com.exyfi.clock.Clock clock;
     private final Map<String, List<Instant>> events = new HashMap<>();
 
-
     public EventStatisticImpl(Clock clock) {
         this.clock = clock;
     }
